@@ -1,7 +1,12 @@
 *
 {
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+@font-face {
+    font-family: recipeFont;
+    src: url();
 }
 
 body 
@@ -36,4 +41,10 @@ p
     text-align: center;
     display: block;
     font-size: 0.6cm;
+}
+
+.divider 
+{
+    border-bottom: 3px solid goldenrod;
+    margin: 2px 0;
 }
